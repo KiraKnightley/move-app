@@ -1,0 +1,80 @@
+.card {
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+  display: flex;
+}
+
+.card-image {
+  min-width: 183px;
+  height: 281px;
+}
+
+.card-image-absent {
+  min-width: 183px;
+  height: 281px;
+  flex-grow: 1;
+  background: center center no-repeat #eaeaea url(https://www.themoviedb.org/assets/2/v4/glyphicons/basic/glyphicons-basic-38-picture-grey-c2ebdbb057f2a7614185931650f8cee23fa137b93812ccb132b9df511df1cfac.svg);
+}
+
+.card-content {
+  padding: 12px 9px 15px 20px;
+  max-height: 281px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-title {
+  font-size: 20px;
+  width: 200px;
+}
+
+.card-date {
+  margin-bottom: 7px;
+}
+
+.card-genres {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.genre {
+  border: 1px solid#D9D9D9;
+  padding: 1px 4px;
+  margin-bottom: 7px;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 12px;
+}
+
+.genre:not(:last-child) {
+  margin-right: 8px;
+}
+
+.card-description {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
+.ant-rate-star:not(:last-child) {
+  margin-right: 4px !important;
+}
+
+.card-title-area {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.card-average {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+}
+
+.card-date {
+  white-space: nowrap;
+}

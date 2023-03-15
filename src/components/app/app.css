@@ -1,0 +1,45 @@
+body {
+  background-color: #F7F7F7;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+.app {
+  display: flex;
+}
+
+.page-wrapper {
+  margin: 0 auto;
+  width: 1010px;
+  padding: 13px 36px;
+  background-color: #fff;
+  min-height: 100vh;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.offline-error {
+  margin: 100px auto;
+}
+
+.pagination {
+  margin-bottom: 18px;
+}
+
+.page-header {
+  margin-bottom: 32px;
+}
+
+.ant-tabs-nav-wrap {
+  justify-content: center;
+}
+
+.ant-tabs-nav {
+  align-self: center;
+}

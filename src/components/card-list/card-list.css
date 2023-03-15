@@ -1,0 +1,17 @@
+.card-list {
+  margin-bottom: 37px;
+  display: grid;
+  gap: 36px;
+  grid-template-columns: 454px 454px;
+  grid-template-rows: repeat(auto, 281px);
+  padding: 0;
+  list-style: none;
+}
+
+.loader {
+  margin: 0 auto;
+}
+
+.notfound-alert {
+  font-size: 18px;
+}
